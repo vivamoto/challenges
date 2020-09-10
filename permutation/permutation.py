@@ -79,16 +79,19 @@ def PermutationItertools(num):
             next_num.append(int(n))
 
     # 4. Return smallest number
-    return min(next_num)
+    if len(next_num) == 0:
+        return -1
+    else:
+        return min(next_num)
 
 # Demo
 if __name__ == '__main__':
 
     # My solution
-    print(PermutationStep(11121))
-    print(PermutationStep(41352))
-    print(PermutationStep(12345))
-    print(PermutationStep(53241))
+#    print(PermutationStep(11121))
+#    print(PermutationStep(41352))
+#    print(PermutationStep(12345))
+#    print(PermutationStep(53241))
 
     print()
     # With itertools library
@@ -96,4 +99,5 @@ if __name__ == '__main__':
     print(PermutationItertools(41352))
     print(PermutationItertools(12345))
     print(PermutationItertools(53241))
+    print(PermutationItertools(999))
 
