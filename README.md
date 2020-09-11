@@ -1,2 +1,2 @@
 # Challenges
-Some brain teasers for fun. Also, an opportunity to practice programming and problem solving.
+Some brain teasers in Python for fun. Also, an opportunity to practice programming and problem solving.
